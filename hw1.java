@@ -36,7 +36,6 @@ public class Hw1Grp1 {
 	private static ArrayList<String> key_value_R = new ArrayList<String>();  //The result after join
 	private static ArrayList<String> key_value_S = new ArrayList<String>();  //The result after join
 	
-	
 	public static void main(String[] args) throws IOException, URISyntaxException, MasterNotRunningException, ZooKeeperConnectionException {
 		Input_args_init(args);
 		Load_data_hdfs(add_R, res_R, table_R, key_value_R);
